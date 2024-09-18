@@ -1,0 +1,44 @@
+recipe {
+	width: 0px;
+	height: 0px;
+	display: none;
+}
+
+.mcrecipe  {
+	margin-left: auto;
+	margin-right: auto;
+	border-collapse: collapse;
+	border-spacing: 0px;
+}
+
+.mcrecipe td {
+	background-color: #888;
+	image-rendering: -moz-crisp-edges;
+	image-rendering: -o-crisp-edges;
+	image-rendering: -webkit-optimize-contrast;
+	-ms-interpolation-mode: nearest-neighbor;
+	width: 32px;
+	height: 32px;
+	border: 1px solid #fff;
+	padding: 0px;
+}
+
+.mcrecipe .imgdiv {
+	width: 32px;
+	height: 32px;
+}
+
+.mcrecipe .blank {
+	background: none;
+	border: none;
+}
+
+.mcrecipe .yields {
+	color: #ffffff;
+	background: none;
+	border: none;
+	text-align: center;
+	vertical-align: middle;
+	width: 80px;
+	font-size: 1.6rem;
+}

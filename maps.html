@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html>
+<title>Minecraft Guide</title>
+<link rel="stylesheet" href="style.css">
+<link rel="icon" type="image/x-icon" href="img/Minecraft-creeper-face.jpg">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-teal.css">
+<link href="https://fonts.cdnfonts.com/css/minecraft-3" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {font-family: 'Minecraft', sans-serif;}
+.w3-bar-block .w3-bar-item {
+  padding: 16px;
+  font-weight: bold;
+  
+}
+</style>
+<body>
+
+<nav class="w3-sidebar w3-bar-block w3-collapse w3-animate-left w3-card" style="z-index:3;width:250px;" id="mySidebar">
+  <a class="w3-bar-item w3-button w3-border-bottom w3-large" href="#"><img src="img/Minecraft_text.png" style="width:95%;"></a>
+  <a class="w3-bar-item w3-button w3-hide-large w3-large" href="javascript:void(0)" onclick="w3_close()">Close <i class="fa fa-remove"></i></a>
+  <a class="w3-bar-item w3-button " href="index.html" >&#127968; Home</a>
+  <a class="w3-bar-item w3-button w3-teal" href="maps.html">&#128205; MAPS</a>
+  <a class="w3-bar-item w3-button" href="craft.html">&#128296; Craft</a>
+  <a class="w3-bar-item w3-button" href="#">&#128273; Command</a>
+  <a class="w3-bar-item w3-button" href="#">&#128300; Brewing Recipe</a>
+  <a class="w3-bar-item w3-button" href="#">&#128212; Book enchanted</a>
+  <div>
+    <a class="w3-bar-item w3-button w3-teal" onclick="myAccordion('demo')" href="javascript:void(0)">More <i class="fa fa-caret-down"></i></a>
+    <div id="demo" class="w3-hide">
+      <a class="w3-bar-item w3-button" href="#">&#128225;Server</a>
+      <a class="w3-bar-item w3-button" href="#">&#128268;Fix Ping</a>
+      <a class="w3-bar-item w3-button" href="#">&#128229;Mods / Sheder</a>
+    </div>
+  </div>
+</nav>
+
+<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" id="myOverlay"></div>
+
+<div class="w3-main" style="margin-left:250px;">
+
+<div id="myTop" class="w3-container w3-top w3-theme w3-large">
+  <p><i class="fa fa-bars w3-button w3-teal w3-hide-large w3-xlarge" onclick="w3_open()"></i>
+  <span id="myIntro" class="w3-hide">Maps</span></p>
+</div>
+
+<header class="w3-container w3-theme" style="padding:175px 50px" >
+
+</style>
+    
+    
+    
+    <style>
+    header{
+    background-image: url('img/Dirt_background_BE1.webp');
+    background-position: 50%;
+    background-size:152ch;
+    }
+    
+    </style>
+       <img src="img/00.png" alt="">
+       <div class="w3-container" style="padding:50px">
+
+        <p style="color:rgb(255, 0, 0) ">All Biomes in Minecraft</p>
+           
+        A biome is a Minecraft region with unique geography, plants, and other characteristics. Biomes can have different environments, such as forests and deserts. Whether you are playing on Bedrock or Java Edition, you will see the same biomes pop up in either game. Here is a breakdown of all the biomes you can find in Minecraft.</p>
+        <style>
+          .minecraft-btn {
+            background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMQAAAAPCAAAAACe4j/AAAAEuElEQVRIx1WWS5Ibuw5EtddrdRRJJE4iSKrb4c2/AUuy30iK+jEBHCTwAICMCgAKiGhKVQUwKzJHQo4mQGBy7AIvk1E2AQKhFt6bUGD1gILy0DkD4dmzACkGyzCScgFgQmLZr4LpQpC56QB2wgSYE8i1fd6xd1yPHIAKwAs14Undx2LIHK0X6vdFbzTa6CNBLQE8Y5rapn7oAl3KSDKC6cLfL6sLnIVG7ffnyUgvQ6rwLjUZdIVqWz0iEXXCZ+TJsV8feUdoPHDk+a/IeAbq0ldLT59jtHweHwmKS6gFSUYCqKcVsPami1pEnqolkCMBiAS87FXTICp03geYUr8TV8un3KuyC0BfTUzihOCdwjUya1bkT9VWe+AaFOoJzHdtERXRe/eulyEDhC6pjYwr+JQuIDU9/0wQBnJEAkd+9i6IRTJrV7YWnGfwLA6ESphkBoCu88M0YH1CTTOiRUpDdwpGkkP5yL9phhwn+QVxDarAXq513y9bLKgxBGR/CjDyMl4ECd6lO82CaMLbEHGHp1R8ePDERj392ssaCOigNjJ+dXXl6OLUFfVx6dA1BFJLlHpkUHPam095C3QJLIjn6OLIOB3xe0JS85Zd+govg1/z/UhtG3RdVW98yxNp5I0Vtf/U+6y/dJ/yHtSK4q7G9ARscC3/Df/kXTwiT3d6ovjEISLJIVEvBwWeCXlALZTbpy85xqWuf3sNiBBUmYjI+BqN6aNQqDWpipSYf3W1nOV/WALoykjIiCPreSn97UigsjZdPA5s3AmCDIxaVO0Fa1fV/qkaiijPPz/bEeRyLSBDI8K8j37TO8aH7vmOqUUQ1DboYhvqd+FlFGEo+2T75MbLGnjvPeu7Pl521Ap14dcR3h7p75qv4xieqnNDoyCPLt/yKkf5gOUXl+6S3d9Syq/982fz+fhpsm28C5EhJcxsWWQke6KoPMA7tqm7kKcrn6FLhWcoqCNCxDPyQ8wEKR73nIlEX8GpARSJX7/rzeNtWPD/Dl2IwtOYMwV7osGsHYJanzeU7KqIZVCTcrT0IEbyD4d1e1dkBtW2qLhLXK7a1ogDqsjI1DR4PY7nHEqfF9tn8HUJL+eQ/lGOXdwI1++57CqgmDaReM9CZYLAk4D4ymqti4KZI9Htz9OnrcuOhCQEqJfXaxHPAFG/l/ee1GFJPXmPryYUiUGPutnRGXkagmnjHk5RNpm7xxiclm6CjJEQ4+MD4xPmuT9Ef4b3YT3B51a7d4Np76PF0cavuC+SoaH6PlilipEakoJBJETWT3k7Hf+1REPj2fIx95t5ct6u9S5v3KM2fv2Ve29ax9yC98zT2IZot61MHyYtdPF92nguZ29xfcVxSu9Nj5Gl8G3wcVoW8n1Q/f6BHFEAyy5R2aRIdYH8XfV4453vHKcnqarXPD6mdrD0rlVV5xBPF2xuJM5Oo0SdaaqGMjJva7ii6bYv74IzPMo5pGebpu72ghypwTR+WWDuhQOkFijGyAzF3GXh11lEH0hkPINZivpTqLEtVm2j1hVcn/S0//q0es5dbyxOErxKivQ+bHotvzcT3/XztPf20XqG6fJZMePT2X6ts+nlm9LoSYHMiHuJjGXniB7v2fo/5qT4nuxYg6AAAAAASUVORK5CYII=);
+            font-family: 'Minecraft';
+              border-color: #AAA #565656 #565656 #AAA;
+            
+              outline: 2px solid #000;
+          }
+            
+          .minecraft-btn:hover {
+            background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMQAAAAPCAMAAACMV5AuAAAAVFBMVEVtd7ZteLZverdwerdwe7hxfLhyfbl0frl1f7p2gLt4grx6hLx7hb18hr5+iL+AisCBi8GCjMGEjsKGkMOHkcSIksSKk8WLlMWLlcaMlcaNlsePmMdwBHmVAAAEjElEQVRIx1WW27YbKw5F3Ul2GYTWFAJX+pyd///PfgDsTg0/mSqQ1k08AEAeDkAA7kXyDAeyu2QCWREgCGSvAAbIE/D9U2m8Ji4Drw0CEhP7EMiqBFxmDMBEkHvd5AziDsjoCKQXddUl1nuZgMZrf0PMdj1kgNY+Ay+CJPg8kj1rR3X/GS9kxaoJVFaB6QkxIX5TBX65mpAZGQH3HaoCFMj6/GxuYgDyTsyup1hfxwxVN+F08ANGANyf8jqAPaBpranJvhxV+VV08JGPVScmcL8W4EIuAFWFHMZrUkUfNC3WtIsEaFogMWJRl839MES61w1cjMUsI1fb7GKaoENMOdFNykzXPz2mlwekkXjV4ioO9b15rZWZd4AaCL9cxdSutl8buIOUkd8JTgAy01IKoFoFPhAZr65SbDHgxFIGKi5IpLaKdlafAHxaVWDt2SSZ24LQhEx6aLGyj7RtELDLiA7EiD72ehBiQJo5oPq1nOQMYGAIYoY2AwIrImaA+25P8vZRa0KgqrjnQIaACiom/1G9Sla3GUHVLl/mMl/mxeUPGT0T5seAeeAQtF9WV2F7cX4niJ4DYmBd12oh7jymyRkBuq6M81mQuExHVv313beo9VH3ojfM2zZ8AkTG8X7EeDs6OZw+mrY7E5l/gqQJmZx+YySQAi1/dqQZy0as4FL1d7nrcfd1kjWTX1ZIYESTUCnuPZE7+anrqcxlz3diUX2HowHCf15S3AvxrnhRxeMwtQACGYGKZ7wGjNl7vH73MHdP8s/vSXM0FiRqMnPowfbjRsfe6n7nZ/FGIyfgF6+A/t1XTrcWB3Q42AxkMOfMfuJotRPgqGqFMfB8KO6eN+BEpO8F2eLZ18YO0GUdmEDcXMcNey+XuOfvP5P35guSVxAzWRYUpIoSuZiJrJ/p4zPouw0pwX+6XwpIcyNWEcJ/uf5Svuyx+ncTfhmotEhIBPe/8f961F/jI5aQfSs3WFOwChnZZxPk+HQjZu/WBuDFVwobZnoLISBOdkmNLFPE9iadiImsgTcdTDKA8dj1qBT518Xcg6+6L0Yl/nqCLeH+b46InkCSETTBzEQBRoPEwS9lKVUkpEx426M3oIMHYQLhK/B6jHvgXw6if4+YM4mlJdWDpLw4MhHgjwBZgIt+ZJdAVENOEkiv6mY4yy5nFPjnQmGfGVy0IqP+cmbsWF7Se/rT+5ZBzHPdKfajHW2ouWldPJaoTDJ3GUYTNMV/IyaiPYqQuX0VPXK+ra3Mc8c5Wlkp4D/e5S5htjXU3HnPPJsBXraRM/rSpOMX99zMoVradRl9AMxJdVPIYgf8Rhu0DvLM739A5rmjJ51QcW9SFXjcvR85oYOhSKTsd65pqdKWIV59ZO/7kKTDJLbvYw9XVRIyTXKJdfm4rOjE18yT8IHM/euZa0Z0fLvBSIh7h925QLoXR80WNfnqOHHP7Qk5aj+dTLX4E3hhIkafoGd15/IDT/lPTVSVr233dy6OkJtiLm0yBu+byeE2Yc59pVrDdKyPjxgD4h6r6vcFwpYNHMxVBaE2ApmfyTTjf5jQnWRymG7iAAAAAElFTkSuQmCC);
+              border-color: #BDC6FF #59639A #59639A #BDC6FF;
+          }
+          </style>
+          
+          <button class="minecraft-btn mx-auto w-64 text-center text-white truncate p-1 border-2 border-b-4 hover:text-yellow-200">Overworld</button>
+          <style>
+            .minecraft-btn {
+              background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMQAAAAPCAAAAACe4j/AAAAEuElEQVRIx1WWS5Ibuw5EtddrdRRJJE4iSKrb4c2/AUuy30iK+jEBHCTwAICMCgAKiGhKVQUwKzJHQo4mQGBy7AIvk1E2AQKhFt6bUGD1gILy0DkD4dmzACkGyzCScgFgQmLZr4LpQpC56QB2wgSYE8i1fd6xd1yPHIAKwAs14Undx2LIHK0X6vdFbzTa6CNBLQE8Y5rapn7oAl3KSDKC6cLfL6sLnIVG7ffnyUgvQ6rwLjUZdIVqWz0iEXXCZ+TJsV8feUdoPHDk+a/IeAbq0ldLT59jtHweHwmKS6gFSUYCqKcVsPami1pEnqolkCMBiAS87FXTICp03geYUr8TV8un3KuyC0BfTUzihOCdwjUya1bkT9VWe+AaFOoJzHdtERXRe/eulyEDhC6pjYwr+JQuIDU9/0wQBnJEAkd+9i6IRTJrV7YWnGfwLA6ESphkBoCu88M0YH1CTTOiRUpDdwpGkkP5yL9phhwn+QVxDarAXq513y9bLKgxBGR/CjDyMl4ECd6lO82CaMLbEHGHp1R8ePDERj392ssaCOigNjJ+dXXl6OLUFfVx6dA1BFJLlHpkUHPam095C3QJLIjn6OLIOB3xe0JS85Zd+govg1/z/UhtG3RdVW98yxNp5I0Vtf/U+6y/dJ/yHtSK4q7G9ARscC3/Df/kXTwiT3d6ovjEISLJIVEvBwWeCXlALZTbpy85xqWuf3sNiBBUmYjI+BqN6aNQqDWpipSYf3W1nOV/WALoykjIiCPreSn97UigsjZdPA5s3AmCDIxaVO0Fa1fV/qkaiijPPz/bEeRyLSBDI8K8j37TO8aH7vmOqUUQ1DboYhvqd+FlFGEo+2T75MbLGnjvPeu7Pl521Ap14dcR3h7p75qv4xieqnNDoyCPLt/yKkf5gOUXl+6S3d9Syq/982fz+fhpsm28C5EhJcxsWWQke6KoPMA7tqm7kKcrn6FLhWcoqCNCxDPyQ8wEKR73nIlEX8GpARSJX7/rzeNtWPD/Dl2IwtOYMwV7osGsHYJanzeU7KqIZVCTcrT0IEbyD4d1e1dkBtW2qLhLXK7a1ogDqsjI1DR4PY7nHEqfF9tn8HUJL+eQ/lGOXdwI1++57CqgmDaReM9CZYLAk4D4ymqti4KZI9Htz9OnrcuOhCQEqJfXaxHPAFG/l/ee1GFJPXmPryYUiUGPutnRGXkagmnjHk5RNpm7xxiclm6CjJEQ4+MD4xPmuT9Ef4b3YT3B51a7d4Np76PF0cavuC+SoaH6PlilipEakoJBJETWT3k7Hf+1REPj2fIx95t5ct6u9S5v3KM2fv2Ve29ax9yC98zT2IZot61MHyYtdPF92nguZ29xfcVxSu9Nj5Gl8G3wcVoW8n1Q/f6BHFEAyy5R2aRIdYH8XfV4453vHKcnqarXPD6mdrD0rlVV5xBPF2xuJM5Oo0SdaaqGMjJva7ii6bYv74IzPMo5pGebpu72ghypwTR+WWDuhQOkFijGyAzF3GXh11lEH0hkPINZivpTqLEtVm2j1hVcn/S0//q0es5dbyxOErxKivQ+bHotvzcT3/XztPf20XqG6fJZMePT2X6ts+nlm9LoSYHMiHuJjGXniB7v2fo/5qT4nuxYg6AAAAAASUVORK5CYII=);
+              font-family: 'Minecraft';
+                border-color: #AAA #565656 #565656 #AAA;
+                
+                outline: 2px solid #000;
+            }
+              
+            .minecraft-btn:hover {
+              background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMQAAAAPCAMAAACMV5AuAAAAVFBMVEVtd7ZteLZverdwerdwe7hxfLhyfbl0frl1f7p2gLt4grx6hLx7hb18hr5+iL+AisCBi8GCjMGEjsKGkMOHkcSIksSKk8WLlMWLlcaMlcaNlsePmMdwBHmVAAAEjElEQVRIx1WW27YbKw5F3Ul2GYTWFAJX+pyd///PfgDsTg0/mSqQ1k08AEAeDkAA7kXyDAeyu2QCWREgCGSvAAbIE/D9U2m8Ji4Drw0CEhP7EMiqBFxmDMBEkHvd5AziDsjoCKQXddUl1nuZgMZrf0PMdj1kgNY+Ay+CJPg8kj1rR3X/GS9kxaoJVFaB6QkxIX5TBX65mpAZGQH3HaoCFMj6/GxuYgDyTsyup1hfxwxVN+F08ANGANyf8jqAPaBpranJvhxV+VV08JGPVScmcL8W4EIuAFWFHMZrUkUfNC3WtIsEaFogMWJRl839MES61w1cjMUsI1fb7GKaoENMOdFNykzXPz2mlwekkXjV4ioO9b15rZWZd4AaCL9cxdSutl8buIOUkd8JTgAy01IKoFoFPhAZr65SbDHgxFIGKi5IpLaKdlafAHxaVWDt2SSZ24LQhEx6aLGyj7RtELDLiA7EiD72ehBiQJo5oPq1nOQMYGAIYoY2AwIrImaA+25P8vZRa0KgqrjnQIaACiom/1G9Sla3GUHVLl/mMl/mxeUPGT0T5seAeeAQtF9WV2F7cX4niJ4DYmBd12oh7jymyRkBuq6M81mQuExHVv313beo9VH3ojfM2zZ8AkTG8X7EeDs6OZw+mrY7E5l/gqQJmZx+YySQAi1/dqQZy0as4FL1d7nrcfd1kjWTX1ZIYESTUCnuPZE7+anrqcxlz3diUX2HowHCf15S3AvxrnhRxeMwtQACGYGKZ7wGjNl7vH73MHdP8s/vSXM0FiRqMnPowfbjRsfe6n7nZ/FGIyfgF6+A/t1XTrcWB3Q42AxkMOfMfuJotRPgqGqFMfB8KO6eN+BEpO8F2eLZ18YO0GUdmEDcXMcNey+XuOfvP5P35guSVxAzWRYUpIoSuZiJrJ/p4zPouw0pwX+6XwpIcyNWEcJ/uf5Svuyx+ncTfhmotEhIBPe/8f961F/jI5aQfSs3WFOwChnZZxPk+HQjZu/WBuDFVwobZnoLISBOdkmNLFPE9iadiImsgTcdTDKA8dj1qBT518Xcg6+6L0Yl/nqCLeH+b46InkCSETTBzEQBRoPEwS9lKVUkpEx426M3oIMHYQLhK/B6jHvgXw6if4+YM4mlJdWDpLw4MhHgjwBZgIt+ZJdAVENOEkiv6mY4yy5nFPjnQmGfGVy0IqP+cmbsWF7Se/rT+5ZBzHPdKfajHW2ouWldPJaoTDJ3GUYTNMV/IyaiPYqQuX0VPXK+ra3Mc8c5Wlkp4D/e5S5htjXU3HnPPJsBXraRM/rSpOMX99zMoVradRl9AMxJdVPIYgf8Rhu0DvLM739A5rmjJ51QcW9SFXjcvR85oYOhSKTsd65pqdKWIV59ZO/7kKTDJLbvYw9XVRIyTXKJdfm4rOjE18yT8IHM/euZa0Z0fLvBSIh7h925QLoXR80WNfnqOHHP7Qk5aj+dTLX4E3hhIkafoGd15/IDT/lPTVSVr233dy6OkJtiLm0yBu+byeE2Yc59pVrDdKyPjxgD4h6r6vcFwpYNHMxVBaE2ApmfyTTjf5jQnWRymG7iAAAAAElFTkSuQmCC);
+                border-color: #BDC6FF #59639A #59639A #BDC6FF;
+            }
+            </style>
+            
+            <button class="minecraft-btn mx-auto w-64 text-center text-white truncate p-1 border-2 border-b-4 hover:text-yellow-200">Nether</button>
+            <style>
+              .minecraft-btn {
+                background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMQAAAAPCAAAAACe4j/AAAAEuElEQVRIx1WWS5Ibuw5EtddrdRRJJE4iSKrb4c2/AUuy30iK+jEBHCTwAICMCgAKiGhKVQUwKzJHQo4mQGBy7AIvk1E2AQKhFt6bUGD1gILy0DkD4dmzACkGyzCScgFgQmLZr4LpQpC56QB2wgSYE8i1fd6xd1yPHIAKwAs14Undx2LIHK0X6vdFbzTa6CNBLQE8Y5rapn7oAl3KSDKC6cLfL6sLnIVG7ffnyUgvQ6rwLjUZdIVqWz0iEXXCZ+TJsV8feUdoPHDk+a/IeAbq0ldLT59jtHweHwmKS6gFSUYCqKcVsPami1pEnqolkCMBiAS87FXTICp03geYUr8TV8un3KuyC0BfTUzihOCdwjUya1bkT9VWe+AaFOoJzHdtERXRe/eulyEDhC6pjYwr+JQuIDU9/0wQBnJEAkd+9i6IRTJrV7YWnGfwLA6ESphkBoCu88M0YH1CTTOiRUpDdwpGkkP5yL9phhwn+QVxDarAXq513y9bLKgxBGR/CjDyMl4ECd6lO82CaMLbEHGHp1R8ePDERj392ssaCOigNjJ+dXXl6OLUFfVx6dA1BFJLlHpkUHPam095C3QJLIjn6OLIOB3xe0JS85Zd+govg1/z/UhtG3RdVW98yxNp5I0Vtf/U+6y/dJ/yHtSK4q7G9ARscC3/Df/kXTwiT3d6ovjEISLJIVEvBwWeCXlALZTbpy85xqWuf3sNiBBUmYjI+BqN6aNQqDWpipSYf3W1nOV/WALoykjIiCPreSn97UigsjZdPA5s3AmCDIxaVO0Fa1fV/qkaiijPPz/bEeRyLSBDI8K8j37TO8aH7vmOqUUQ1DboYhvqd+FlFGEo+2T75MbLGnjvPeu7Pl521Ap14dcR3h7p75qv4xieqnNDoyCPLt/yKkf5gOUXl+6S3d9Syq/982fz+fhpsm28C5EhJcxsWWQke6KoPMA7tqm7kKcrn6FLhWcoqCNCxDPyQ8wEKR73nIlEX8GpARSJX7/rzeNtWPD/Dl2IwtOYMwV7osGsHYJanzeU7KqIZVCTcrT0IEbyD4d1e1dkBtW2qLhLXK7a1ogDqsjI1DR4PY7nHEqfF9tn8HUJL+eQ/lGOXdwI1++57CqgmDaReM9CZYLAk4D4ymqti4KZI9Htz9OnrcuOhCQEqJfXaxHPAFG/l/ee1GFJPXmPryYUiUGPutnRGXkagmnjHk5RNpm7xxiclm6CjJEQ4+MD4xPmuT9Ef4b3YT3B51a7d4Np76PF0cavuC+SoaH6PlilipEakoJBJETWT3k7Hf+1REPj2fIx95t5ct6u9S5v3KM2fv2Ve29ax9yC98zT2IZot61MHyYtdPF92nguZ29xfcVxSu9Nj5Gl8G3wcVoW8n1Q/f6BHFEAyy5R2aRIdYH8XfV4453vHKcnqarXPD6mdrD0rlVV5xBPF2xuJM5Oo0SdaaqGMjJva7ii6bYv74IzPMo5pGebpu72ghypwTR+WWDuhQOkFijGyAzF3GXh11lEH0hkPINZivpTqLEtVm2j1hVcn/S0//q0es5dbyxOErxKivQ+bHotvzcT3/XztPf20XqG6fJZMePT2X6ts+nlm9LoSYHMiHuJjGXniB7v2fo/5qT4nuxYg6AAAAAASUVORK5CYII=);
+                font-family: 'Minecraft';
+                  border-color: #AAA #565656 #565656 #AAA;
+                
+                  outline: 2px solid #000;
+              }
+                
+              .minecraft-btn:hover {
+                background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMQAAAAPCAMAAACMV5AuAAAAVFBMVEVtd7ZteLZverdwerdwe7hxfLhyfbl0frl1f7p2gLt4grx6hLx7hb18hr5+iL+AisCBi8GCjMGEjsKGkMOHkcSIksSKk8WLlMWLlcaMlcaNlsePmMdwBHmVAAAEjElEQVRIx1WW27YbKw5F3Ul2GYTWFAJX+pyd///PfgDsTg0/mSqQ1k08AEAeDkAA7kXyDAeyu2QCWREgCGSvAAbIE/D9U2m8Ji4Drw0CEhP7EMiqBFxmDMBEkHvd5AziDsjoCKQXddUl1nuZgMZrf0PMdj1kgNY+Ay+CJPg8kj1rR3X/GS9kxaoJVFaB6QkxIX5TBX65mpAZGQH3HaoCFMj6/GxuYgDyTsyup1hfxwxVN+F08ANGANyf8jqAPaBpranJvhxV+VV08JGPVScmcL8W4EIuAFWFHMZrUkUfNC3WtIsEaFogMWJRl839MES61w1cjMUsI1fb7GKaoENMOdFNykzXPz2mlwekkXjV4ioO9b15rZWZd4AaCL9cxdSutl8buIOUkd8JTgAy01IKoFoFPhAZr65SbDHgxFIGKi5IpLaKdlafAHxaVWDt2SSZ24LQhEx6aLGyj7RtELDLiA7EiD72ehBiQJo5oPq1nOQMYGAIYoY2AwIrImaA+25P8vZRa0KgqrjnQIaACiom/1G9Sla3GUHVLl/mMl/mxeUPGT0T5seAeeAQtF9WV2F7cX4niJ4DYmBd12oh7jymyRkBuq6M81mQuExHVv313beo9VH3ojfM2zZ8AkTG8X7EeDs6OZw+mrY7E5l/gqQJmZx+YySQAi1/dqQZy0as4FL1d7nrcfd1kjWTX1ZIYESTUCnuPZE7+anrqcxlz3diUX2HowHCf15S3AvxrnhRxeMwtQACGYGKZ7wGjNl7vH73MHdP8s/vSXM0FiRqMnPowfbjRsfe6n7nZ/FGIyfgF6+A/t1XTrcWB3Q42AxkMOfMfuJotRPgqGqFMfB8KO6eN+BEpO8F2eLZ18YO0GUdmEDcXMcNey+XuOfvP5P35guSVxAzWRYUpIoSuZiJrJ/p4zPouw0pwX+6XwpIcyNWEcJ/uf5Svuyx+ncTfhmotEhIBPe/8f961F/jI5aQfSs3WFOwChnZZxPk+HQjZu/WBuDFVwobZnoLISBOdkmNLFPE9iadiImsgTcdTDKA8dj1qBT518Xcg6+6L0Yl/nqCLeH+b46InkCSETTBzEQBRoPEwS9lKVUkpEx426M3oIMHYQLhK/B6jHvgXw6if4+YM4mlJdWDpLw4MhHgjwBZgIt+ZJdAVENOEkiv6mY4yy5nFPjnQmGfGVy0IqP+cmbsWF7Se/rT+5ZBzHPdKfajHW2ouWldPJaoTDJ3GUYTNMV/IyaiPYqQuX0VPXK+ra3Mc8c5Wlkp4D/e5S5htjXU3HnPPJsBXraRM/rSpOMX99zMoVradRl9AMxJdVPIYgf8Rhu0DvLM739A5rmjJ51QcW9SFXjcvR85oYOhSKTsd65pqdKWIV59ZO/7kKTDJLbvYw9XVRIyTXKJdfm4rOjE18yT8IHM/euZa0Z0fLvBSIh7h925QLoXR80WNfnqOHHP7Qk5aj+dTLX4E3hhIkafoGd15/IDT/lPTVSVr233dy6OkJtiLm0yBu+byeE2Yc59pVrDdKyPjxgD4h6r6vcFwpYNHMxVBaE2ApmfyTTjf5jQnWRymG7iAAAAAElFTkSuQmCC);
+                  border-color: #BDC6FF #59639A #59639A #BDC6FF;
+              }
+              </style>
+              
+              <button class="minecraft-btn mx-auto w-64 text-center text-white truncate p-1 border-2 border-b-4 hover:text-yellow-200" >The End</button>
+              <style>
+                .minecraft-btn {
+                  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMQAAAAPCAAAAACe4j/AAAAEuElEQVRIx1WWS5Ibuw5EtddrdRRJJE4iSKrb4c2/AUuy30iK+jEBHCTwAICMCgAKiGhKVQUwKzJHQo4mQGBy7AIvk1E2AQKhFt6bUGD1gILy0DkD4dmzACkGyzCScgFgQmLZr4LpQpC56QB2wgSYE8i1fd6xd1yPHIAKwAs14Undx2LIHK0X6vdFbzTa6CNBLQE8Y5rapn7oAl3KSDKC6cLfL6sLnIVG7ffnyUgvQ6rwLjUZdIVqWz0iEXXCZ+TJsV8feUdoPHDk+a/IeAbq0ldLT59jtHweHwmKS6gFSUYCqKcVsPami1pEnqolkCMBiAS87FXTICp03geYUr8TV8un3KuyC0BfTUzihOCdwjUya1bkT9VWe+AaFOoJzHdtERXRe/eulyEDhC6pjYwr+JQuIDU9/0wQBnJEAkd+9i6IRTJrV7YWnGfwLA6ESphkBoCu88M0YH1CTTOiRUpDdwpGkkP5yL9phhwn+QVxDarAXq513y9bLKgxBGR/CjDyMl4ECd6lO82CaMLbEHGHp1R8ePDERj392ssaCOigNjJ+dXXl6OLUFfVx6dA1BFJLlHpkUHPam095C3QJLIjn6OLIOB3xe0JS85Zd+govg1/z/UhtG3RdVW98yxNp5I0Vtf/U+6y/dJ/yHtSK4q7G9ARscC3/Df/kXTwiT3d6ovjEISLJIVEvBwWeCXlALZTbpy85xqWuf3sNiBBUmYjI+BqN6aNQqDWpipSYf3W1nOV/WALoykjIiCPreSn97UigsjZdPA5s3AmCDIxaVO0Fa1fV/qkaiijPPz/bEeRyLSBDI8K8j37TO8aH7vmOqUUQ1DboYhvqd+FlFGEo+2T75MbLGnjvPeu7Pl521Ap14dcR3h7p75qv4xieqnNDoyCPLt/yKkf5gOUXl+6S3d9Syq/982fz+fhpsm28C5EhJcxsWWQke6KoPMA7tqm7kKcrn6FLhWcoqCNCxDPyQ8wEKR73nIlEX8GpARSJX7/rzeNtWPD/Dl2IwtOYMwV7osGsHYJanzeU7KqIZVCTcrT0IEbyD4d1e1dkBtW2qLhLXK7a1ogDqsjI1DR4PY7nHEqfF9tn8HUJL+eQ/lGOXdwI1++57CqgmDaReM9CZYLAk4D4ymqti4KZI9Htz9OnrcuOhCQEqJfXaxHPAFG/l/ee1GFJPXmPryYUiUGPutnRGXkagmnjHk5RNpm7xxiclm6CjJEQ4+MD4xPmuT9Ef4b3YT3B51a7d4Np76PF0cavuC+SoaH6PlilipEakoJBJETWT3k7Hf+1REPj2fIx95t5ct6u9S5v3KM2fv2Ve29ax9yC98zT2IZot61MHyYtdPF92nguZ29xfcVxSu9Nj5Gl8G3wcVoW8n1Q/f6BHFEAyy5R2aRIdYH8XfV4453vHKcnqarXPD6mdrD0rlVV5xBPF2xuJM5Oo0SdaaqGMjJva7ii6bYv74IzPMo5pGebpu72ghypwTR+WWDuhQOkFijGyAzF3GXh11lEH0hkPINZivpTqLEtVm2j1hVcn/S0//q0es5dbyxOErxKivQ+bHotvzcT3/XztPf20XqG6fJZMePT2X6ts+nlm9LoSYHMiHuJjGXniB7v2fo/5qT4nuxYg6AAAAAASUVORK5CYII=);
+                  font-family: 'Minecraft';
+                    border-color: #aaaaaa #565656 #565656 #AAA;
+                  
+                    outline: 2px solid #000;
+                }
+                  
+                .minecraft-btn:hover {
+                  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMQAAAAPCAMAAACMV5AuAAAAVFBMVEVtd7ZteLZverdwerdwe7hxfLhyfbl0frl1f7p2gLt4grx6hLx7hb18hr5+iL+AisCBi8GCjMGEjsKGkMOHkcSIksSKk8WLlMWLlcaMlcaNlsePmMdwBHmVAAAEjElEQVRIx1WW27YbKw5F3Ul2GYTWFAJX+pyd///PfgDsTg0/mSqQ1k08AEAeDkAA7kXyDAeyu2QCWREgCGSvAAbIE/D9U2m8Ji4Drw0CEhP7EMiqBFxmDMBEkHvd5AziDsjoCKQXddUl1nuZgMZrf0PMdj1kgNY+Ay+CJPg8kj1rR3X/GS9kxaoJVFaB6QkxIX5TBX65mpAZGQH3HaoCFMj6/GxuYgDyTsyup1hfxwxVN+F08ANGANyf8jqAPaBpranJvhxV+VV08JGPVScmcL8W4EIuAFWFHMZrUkUfNC3WtIsEaFogMWJRl839MES61w1cjMUsI1fb7GKaoENMOdFNykzXPz2mlwekkXjV4ioO9b15rZWZd4AaCL9cxdSutl8buIOUkd8JTgAy01IKoFoFPhAZr65SbDHgxFIGKi5IpLaKdlafAHxaVWDt2SSZ24LQhEx6aLGyj7RtELDLiA7EiD72ehBiQJo5oPq1nOQMYGAIYoY2AwIrImaA+25P8vZRa0KgqrjnQIaACiom/1G9Sla3GUHVLl/mMl/mxeUPGT0T5seAeeAQtF9WV2F7cX4niJ4DYmBd12oh7jymyRkBuq6M81mQuExHVv313beo9VH3ojfM2zZ8AkTG8X7EeDs6OZw+mrY7E5l/gqQJmZx+YySQAi1/dqQZy0as4FL1d7nrcfd1kjWTX1ZIYESTUCnuPZE7+anrqcxlz3diUX2HowHCf15S3AvxrnhRxeMwtQACGYGKZ7wGjNl7vH73MHdP8s/vSXM0FiRqMnPowfbjRsfe6n7nZ/FGIyfgF6+A/t1XTrcWB3Q42AxkMOfMfuJotRPgqGqFMfB8KO6eN+BEpO8F2eLZ18YO0GUdmEDcXMcNey+XuOfvP5P35guSVxAzWRYUpIoSuZiJrJ/p4zPouw0pwX+6XwpIcyNWEcJ/uf5Svuyx+ncTfhmotEhIBPe/8f961F/jI5aQfSs3WFOwChnZZxPk+HQjZu/WBuDFVwobZnoLISBOdkmNLFPE9iadiImsgTcdTDKA8dj1qBT518Xcg6+6L0Yl/nqCLeH+b46InkCSETTBzEQBRoPEwS9lKVUkpEx426M3oIMHYQLhK/B6jHvgXw6if4+YM4mlJdWDpLw4MhHgjwBZgIt+ZJdAVENOEkiv6mY4yy5nFPjnQmGfGVy0IqP+cmbsWF7Se/rT+5ZBzHPdKfajHW2ouWldPJaoTDJ3GUYTNMV/IyaiPYqQuX0VPXK+ra3Mc8c5Wlkp4D/e5S5htjXU3HnPPJsBXraRM/rSpOMX99zMoVradRl9AMxJdVPIYgf8Rhu0DvLM739A5rmjJ51QcW9SFXjcvR85oYOhSKTsd65pqdKWIV59ZO/7kKTDJLbvYw9XVRIyTXKJdfm4rOjE18yT8IHM/euZa0Z0fLvBSIh7h925QLoXR80WNfnqOHHP7Qk5aj+dTLX4E3hhIkafoGd15/IDT/lPTVSVr233dy6OkJtiLm0yBu+byeE2Yc59pVrDdKyPjxgD4h6r6vcFwpYNHMxVBaE2ApmfyTTjf5jQnWRymG7iAAAAAElFTkSuQmCC);
+                    border-color: #BDC6FF #59639A #59639A #BDC6FF;
+                }
+                </style>
+                
+                <button class="minecraft-btn mx-auto w-64 text-center text-white truncate p-1 border-2 border-b-4 hover:text-yellow-200" style="color: rgb(255, 247, 0);">Heaven</button>
+              
+              <hr >
+
+        <p style="color: rgb(92, 185, 0);"><u>Overworld biomes</u></p>
+        <img src="img/210850_71cfd.gif" height="45px"><img src="img/jjjjj.gif" height="45px"><br><br> 
+
+        
+        <p style="color:brown" >Plains</p>
+        <img src="img/Plains.webp" height="450px"><br><br>
+            Plains – A relatively flat area that may have some trees. You can find villages and farm animals like horses.
+            Ice plains – Also called snowy tundra. It’s a snow and ice-covered area with very few trees that is mostly flat but has some hills.
+            Ice spike plains – A variant of the ice plains that have large icy spikes and glaciers that reach into the sky.
+            Sunflower plains – The only biome where sunflowers spawn.
+            Snowy plains – A snow-covered area that can have rabbits, polar bears, and strays. Igloos may generate.
+            Mushroom field – An island made of mycelium where big mushrooms grow frequently. The only area where you can find mooshrooms.
+            Savanna – A flat, dry area that has acacia trees and lots of tall grass.
+            <p style="color:rgb(90, 69, 45)">Woodlands</p>
+            <img src="img/Forest_V2.webp" height="450px"><br><br>
+            Forest – Areas filled with oak and birch trees. Mushrooms, flowers, and wolves can also appear.
+            Birch forest – Variant of the forest where only birch trees appear. Wolves do not spawn here.
+            Dark forest – Forest variant filled with dark oak trees. The trees are often packed close enough together that they cover the sky, letting hostile mobs spawn even during the daytime. Woodland mansions exclusively appear in this biome.
+            Flower forest – Less trees appear in these forests, but are replaced with tons of flowers, some exclusive to these biomes. Rabbits replace wolves in these areas.
+            Old growth birch forest – A birch forest, but the trees are much taller.
+            Taiga – A forest of spruce trees that is populated by ferns, berry bushes, foxes, and rabbits.
+            Old growth spruce taiga – Variant of the taiga where giant spruce trees are covered in leaf blocks.
+            Old growth pine taiga – Variant of the taiga that has taller and wider spruce trees. Mossy cobblestone and podzol can be found in these areas.
+            Snowy taiga – A taiga variant covered in snow. Igloos can generate in these areas.
+            Jungle – A dense area of tall jungle trees. Vines commonly drape down many blocks. You can find ocelots, parrots, pandas, cocoa, and melons in these areas.
+            Bamboo jungle – A jungle absolutely covered in large trees and thickets of bamboo. Pandas spawn in this area more often.
+            Sparse jungle – A much less dense variation of the jungle. All the same things appear, but there is more space between everything.
+            Grove – A forest of spruce trees that appear at the bottom of mountains when near a forest biome. There is a lot of snow and powder snow along the floor.
+            Cherry Grove – An area where cherry trees generated. They are easy to distinguish by their pink leave blocks that have petals that fall to the ground.
+            <p style="color:rgb(172, 172, 172)">Caves</p>
+            <img src="img/gg.jpg" height="450px"><br><br>
+            Deep dark – A dark area that generates far underground. It is comprised of sculk blocks and is where ancient cities and the warden reside. Be careful making noise around sensor and shrieker blocks which will summon the warden to your position.
+            Dripstone caves – These are the exclusive locations to find dripstone blocks.
+            Lush caves – Caverns filled with moss, bushes, vines, glow berries, dripleaf plants, and other vegetation. Axolotls and tropical fish can appear here. These caves are always underground below azalea trees.
+            <p style="color:rgb(0, 159, 8)">Mountains</p>
+            <img src="img/mo.webp" height="450px"><br><br>
+            Jagged peaks – Found at the top-most part of the tallest mountains, often extending beyond the reach of clouds. Underneath a layer of snow, you can find stone, coal, iron, or emerald.
+            Frozen peaks – A not-so-jagged area filled with ice, snow, and packed ice.
+            Stony peaks – Peak variations that generate in warmer areas. No snow or goats appear here.
+            Snowy slopes – Areas in mountains that are covered in snow and snow powder. Igloos can generate in these areas, while goats and rabbits spawn here.
+            Windswept hills – Area filled with steep cliffs, valleys, and floating islands. Llamas and emerald can appear here.
+            Windswept forest – A windswept hill that generated next to a forest. Instead of stone, it has an all-grass floor with trees.
+            Windswept gravelly hills – Windswept hills variant that is mostly filled with gravel blocks.
+            Meadow – Grassy area with flowers that appear near mountains. If you find a tree here, it will always have a bee nest.
+            Stony shores – Appear when a mountain generates directly next to an ocean. Lots of stone and potential for buried treasure.
+            Savanna Plateau – A savanna that generates at a higher altitude in a mountainous area.
+            Windswept savanna – A savanna in a mountainous area that has very steep cliffs that can reach high into the sky.
+            <p style="color:rgb(19, 124, 0)">Swamps</p>
+            <img src="img/Swamp_-_Mangroves.webp" height="450px"><br><br>
+            Swamp – A dark hued area with shallow waters scattered around. Trees can sometimes grow out of the water and vines drape down them. Temperate frogs, blue orchids, and swamp huts appear here.
+            Mangrove swamp – A swamp variant covered in more vegetation than normal swamps. Mangrove trees appear here, and mud blocks take up much of the floor. Warm frogs spawn here.
+            <p style="color:rgb(255, 111, 0)">Sandy areas</p>
+            <img src="img/PP-Biome-Dry.png" height="450px"><br><br>
+            Badlands – A desert made of red sand. Terracotta and stained terracotta can appear frequently.
+            Wooded badlands – Coarse dirt and oak trees appear in this badlands variant.
+            Eroded badlands – Badlands variant that has large spires of terracotta that shoot into the sky.
+            Beach – Sandy areas where water meets land. Turtles spawn here and buried treasure can appear underground.
+            Snowy beach – A beach variant that appears next to a frozen ocean. The sand is covered in snow and turtles do not appear here.
+            Desert – Large areas filled with sand, sandstone, cacti, and sometimes fossils buried away. Husks can spawn at nighttime. Desert villages, wells, and pyramids appear here.
+            <p style="color:rgb(0, 132, 255)">Water areas</p>
+            <img src="img/Lukewarm_Ocean.webp" height="450px"><br><br>
+            River – Stretches of water blocks that cut through land and often lead into oceans. Salmon, squid, and drowned spawn in these waters.
+            Frozen river – A variant of the river when it cuts through snow biomes and is covered in ice. Salmon and drowned still spawn underwater, but rabbits and polar bears appear on top of the ice.
+            Ocean - A basic ocean where seagrass, kelp, and fish commonly abound.
+            Cold ocean – Made of a deep-blue hue and less aquatic wildlife than other ocean biomes. Large groups of kelp can grow here.
+            Deep ocean - Deeper than regular oceans. You can find underwater ravines here with plenty of magma blocks that pull you down. There are variants of these that include lukewarm, cold, and frozen oceans.
+            Frozen ocean - Contains only salmon, squid, and ocean monuments. Where there's ice glaciers, you can sometimes find polar bears on the surface of the water.
+            Lukewarm ocean - Does not contain coral reefs but feature more seagrass, cod, salmon, and kelp.
+            Warm ocean - Look vibrant. These biomes can naturally generate coral reefs and where you can find dolphins, pufferfish, and tropical fish.</p>
+            <hr>
+            <p style="color: blueviolet;"><u>The Nether biomes</u></p>
+            <img src="img/Fire_(Item).webp" height="45px"><img src="img/Fire_(Item).webp" height="45px"><br><br> 
+
+            <p style="color: rgb(226, 195, 255);"> Nether wastes –</p><img src="img/c695b-16649839086804.avif" height="450px"><br><br> 
+            The general look for The Nether. Netherrack is everywhere, with clumps of glowstone mixed in. Large lakes of lava are common, and you will see many of the usual hostile mobs like ghasts, piglins, and magma cubes appear here.
+            <p style="color: rgb(193, 143, 239);">Soul sand valley –</p> <img src="img/7D3FB4AC-1DC4-4270-B522-3CAFA3DB77AA.webp" height="450px"><br><br>
+              While soul sand and soul soil can pop up in various areas of The Nether, it is in abundance in this biome. Because of all the soul blocks, you will run much slower here unless you have the Soul Speed enchantment on some boots.
+            <p style="color: rgb(175, 138, 210);">Basalt deltas –</p> <img src="img/at8f4trxulr41.png" height="450px"><br><br>
+             These areas are very gray, giving the impression of ash left over from volcanic activity. Basalt and blackstone are plentiful here and this is the only Nether biome where bastion remnants do not appear.
+            <p style="color: rgb(108, 68, 145);"> Crimson forest -</p> <img src="img/Crimson_Forest.webp" height="450px"><br><br>
+              Warped and crimson fungus are plentiful here. The fungus structures have weeping vines and shroomlights. Piglins and hoglins are plentiful here, so be sure to have gold to barter with.
+            <p style="color: rgb(99, 40, 158);">Warped forest –</p >  <img src="img/Minecraft-Warped-Forest.avif" height="450px"><br><br>
+            Only striders and endermen appear in these blue fungus areas. Warped nylium, warped roots, nether sprouts, and warped wart blocks can be commonly found here.</p>
+            <hr>
+            <p style="color: fuchsia;"><u>The End biomes</u></p>
+            <img src="img/Ender_Dragon.webp" height="45px"><img src="img/End_Crystal_BE3.webp" height="45px"><br><br> 
+
+            <p style="color: deeppink;">The end –</p> 
+            <img src="img/The_End.webp" height="450px"><br><br>
+            A central island of The End where the ender dragon is. End crystals sit at the top of large obsidian spires and endermen walk around the ground freely.
+              <p style="color: rgb(168, 11, 95);">End barrens –</p> 
+              <img src="img/The_End_-_End_Barrens.webp" height="450px"><br><br>
+              Outer portion of The End that sit on the edge of islands. Nothing appears here besides endermen.
+              <p style="color: rgb(88, 33, 62);">End highlands –</p> 
+              <img src="img/End_Highlands.webp" height="450px"><br><br>
+              Outer portion of The End where both end cities and chorus fruit appear. These are located at higher elevation than other biomes here.
+              <p style="color: rgb(87, 51, 71);">End midlands –</p> 
+              <img src="img/End_Midlands.webp" height="450px"><br><br>
+              Outer portion of The End where end cities can appear, though chorus fruit does not.
+              <p style="color: rgb(114, 42, 81);">Small end islands –</p>
+              <img src="img/Small_End_Islands.webp" height="450px"><br><br>
+              These small floating islands are barren but appear packed together for you to traverse through The End</p>
+            <hr>
+            <p style="color: rgb(255, 0, 0);"> ! The information may not match the current version, or the information may be wrong !</p>
+          
+              
+               
+           
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <script>
+                // Open and close the sidebar on medium and small screens
+                function w3_open() {
+                  document.getElementById("mySidebar").style.display = "block";
+                  document.getElementById("myOverlay").style.display = "block";
+                }
+                
+                function w3_close() {
+                  document.getElementById("mySidebar").style.display = "none";
+                  document.getElementById("myOverlay").style.display = "none";
+                }
+                
+                // Change style of top container on scroll
+                window.onscroll = function() {myFunction()};
+                function myFunction() {
+                  if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+                    document.getElementById("myTop").classList.add("w3-card-4", "w3-animate-opacity");
+                    document.getElementById("myIntro").classList.add("w3-show-inline-block");
+                  } else {
+                    document.getElementById("myIntro").classList.remove("w3-show-inline-block");
+                    document.getElementById("myTop").classList.remove("w3-card-4", "w3-animate-opacity");
+                  }
+                }
+                
+                // Accordions
+                function myAccordion(id) {
+                  var x = document.getElementById(id);
+                  if (x.className.indexOf("w3-show") == -1) {
+                    x.className += " w3-show";
+                    x.previousElementSibling.className += " w3-theme";
+                  } else { 
+                    x.className = x.className.replace("w3-show", "");
+                    x.previousElementSibling.className = 
+                    x.previousElementSibling.className.replace(" w3-theme", "");
+                  }
+                }
+                </script>
